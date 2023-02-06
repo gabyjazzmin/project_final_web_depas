@@ -25,13 +25,6 @@ body{
 #navbar a#active{
     background-color: #0B4F6C;
     margin: 5px;
-    margin-bottom: 0px;
     border-radius: 5px 5px 0px 0px;
-}
-
-
-.member{
-    padding-left:16px;
-    background-color: #00A896;
-    color: #EAFFFD;
+    margin-bottom: 0px;
 }
