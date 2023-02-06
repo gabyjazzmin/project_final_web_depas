@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color:  #0B4F6C;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #36151E;
+}
+#navbar a{
+    float: left;
+    color: #EAFFFD;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #846C5B;
+}
+
+#navbar a#active{
+    background-color: #00A896;
+}
+
+
+.member{
+    padding-left:16px;
+    background-color: #00A896;
+    color: #EAFFFD;
+}
