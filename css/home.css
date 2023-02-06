@@ -33,6 +33,16 @@ h1{
     color:#EAFFFD;
     padding-left: 5%;
 }
+#descripcion{  
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #00A896;
+    color: #EAFFFD;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
 
 #members{
     display: flex;
@@ -42,7 +52,7 @@ h1{
 
 .member{
     background-color: #00A896;
-    width: 400px;
+    width: 27%;
     color: #EAFFFD;
     border-radius: 20px;
     padding-bottom: 5px;
@@ -65,7 +75,7 @@ h1{
     background-color: #36151E;
 }
 .member img{
-    width: 200px;
+    width: 50%;
     margin: 0px;
     border-radius: 25px; 
 }
