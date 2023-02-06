@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>Agenda Depa: Mapa</title>
@@ -17,14 +18,31 @@
     </navbar>
 
     <div id="map"></div>
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" placeholder="Email Adress..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10"
+                placeholder="Escribe aqui tus dudas acerca de nuestros departamerntos..." class="message"
+                required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+    </section>
+    <!--Script para Email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('q7jJ-sTXQK0uyONCe')
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="js/scriptMaps.js"></script>
     <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-UmQwzR49T_fzLTtV--KbweAViSykEjs&map_id=19d44d248a609478&callback=initMap">
-</script>
-    
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-UmQwzR49T_fzLTtV--KbweAViSykEjs&map_id=19d44d248a609478&callback=initMap">
+        </script>
+
 </body>
 
 <!---->
 
 </html>
-
