@@ -29,9 +29,43 @@ body{
     border-radius: 5px 5px 0px 0px;
 }
 
+h1{
+    color:#EAFFFD;
+    padding-left: 5%;
+}
+
+#members{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
 .member{
-    padding-left:16px;
     background-color: #00A896;
+    width: 400px;
     color: #EAFFFD;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.member a{
+    color: #EAFFFD;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.member p{
+    margin:0px;
+}
+.member h2{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #36151E;
+}
+.member img{
+    width: 200px;
+    margin: 0px;
+    border-radius: 25px; 
 }
