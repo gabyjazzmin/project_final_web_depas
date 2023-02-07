@@ -47,16 +47,6 @@ function initMap() {
       animation: google.maps.Animation.DROP,
     });
   }
-
-  /*
-
-
-  new google.maps.Marker({
-    position: {lat:25.65353931692129, lng:-100.29101355620705},
-    map,
-    title: "Residencias 5",
-  });
-  */
 }
 // Info de resis 25.65310258792058, -100.29139610922921
 // Info resis 5 25.65353931692129, -100.29101355620705
