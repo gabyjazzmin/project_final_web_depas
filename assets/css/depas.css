@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color:  #0B4F6C;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #36151E;
+    margin-bottom:5px;
+}
+#navbar a{
+    float: left;
+    color: #EAFFFD;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #846C5B;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#navbar a#active{
+    background-color: #0B4F6C;
+    margin: 5px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
