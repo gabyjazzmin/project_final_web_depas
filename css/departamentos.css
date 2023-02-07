@@ -5,6 +5,7 @@ body{
 #navbar{
     overflow: hidden;
     background-color: #36151E;
+    margin-bottom: 5px;
 }
 #navbar a{
     float: left;

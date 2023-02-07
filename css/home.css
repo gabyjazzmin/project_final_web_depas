@@ -5,6 +5,7 @@ body{
 #navbar{
     overflow: hidden;
     background-color: #36151E;
+    margin-bottom:5px;
 }
 #navbar a{
     float: left;
@@ -79,3 +80,14 @@ h1{
     margin: 0px;
     border-radius: 25px; 
 }
+.principal {
+    background-image: url("../img/depaNY.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-position: 0% 10%;
+    font-size: 20px;
+  }
