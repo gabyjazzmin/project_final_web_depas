@@ -1,97 +1,115 @@
 #map {
-    height: 60vh;
-    align-content: center;
-  }
-  
-  /*
-   * Optional: Makes the sample page fill the window.
-   */
-  html,
-  body {
-    background-color:  #0B4F6C;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 60vh;
+  align-content: center;
+  margin: 0px;
+}
 
-  }
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+html,
+body {
+  background-color:  #0B4F6C;
+  margin: 0;
+  padding: 0;
 
-  .principal {
-    background-image: url("../img/depaNY.jpg");
-    color:#EAFFFD;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeats;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 80px;
-    background-position: 0% 10%;
-    font-size: 20px;
-  }
+}
+
+.principal {
+  background-image: url("../img/depaNY.jpg");
+  color:#EAFFFD;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeats;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  background-position: 0% 10%;
+  font-size: 20px;
+}
 h1{
-  align-content: center;
+align-content: center;
 }
-  
-h2{
-  align-content: center;
-}
-  
-  #navbar{
-    overflow: hidden;
-    background-color: #36151E;
-    margin-bottom:5px;
-  }
-  #navbar a{
-      float: left;
-      color: #EAFFFD;
-      text-align: center;
-      padding: 14px 16px;
-      margin: 5px;
-      margin-bottom: 0px;
-      text-decoration: none;
-      font-size: 17px;
-  }
-  
-  #navbar a:hover {
-      background-color: #846C5B;
-      border-radius: 5px 5px 0px 0px;
-  }
-  
-  #navbar a#active{
-      background-color: #0B4F6C;
-      margin: 5px;
-      border-radius: 5px 5px 0px 0px;
-      margin-bottom: 0px;
-  }
 
-.contact-container{
-  background-color:#EAFFFD;
-  justify-content: center;
+h2{
+margin: 5px;
+text-align: center;
+color: #EAFFFD;
+}
+.contact-container{  
+margin: 0px;
 }
 
 .contact-form{
-  margin-bottom: 1.5em;
-  display: block;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 3%;
+width: 94%;
 }
 
 .name, .email, .message{
-  display: block;
-  box-shadow: none;
-  border-radius: 0;
-  border-color: #EAFFFD;
-  border-style: none none solid none;
-  width: 100%;
-  font-size: 1.25em;
+width:100%;
+margin: 3px;
+box-shadow: none;
+padding: 5px;
+padding-left: 10px;
+border-color: #0B4F6C;
+background-color: #00A896;
+border-style: none none solid none;
+border-radius: 10px;
+font-size:17px;
+color:#EAFFFD;
+font-family: 'Times New Roman', Times, serif;
 }
 
-.name, .email, .message::placeholder{
-  color:#0B4F6C;
+.name::placeholder, .email::placeholder, .message::placeholder{
+color:#EAFFFD;
 }
+
+.send-btn:hover{
+background-color: #0B4F6C;
+}
+
 .send-btn{
-  background:#EAFFFD;
-  border:1px solid #aaa;
-  border-radius:3px;
-  font-size:lem;
-  padding:10 50px;
-  text-transform:uppercase;
-  align-items: center;
+width: 30%;
+margin: 3px;
+margin-bottom: 10px;
+border:1px solid #EAFFFD;
+border-radius: 10px;
+background-color: #00A896;
+color: #EAFFFD;
+font-size:lem;
+font-weight: bold;
+padding: 5px 50px;
+text-transform:uppercase;
+align-items: center;
+}
+
+#navbar{
+  overflow: hidden;
+  background-color: #36151E;
+  margin-bottom:5px;
+}
+#navbar a{
+    float: left;
+    color: #EAFFFD;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #846C5B;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#navbar a#active{
+    background-color: #0B4F6C;
+    margin: 5px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
 }
