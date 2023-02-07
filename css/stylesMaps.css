@@ -8,6 +8,7 @@
    */
   html,
   body {
+    background-color:  #0B4F6C;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -35,6 +36,7 @@ h2{
   #navbar{
     overflow: hidden;
     background-color: #36151E;
+    margin-bottom:5px;
   }
   #navbar a{
       float: left;
