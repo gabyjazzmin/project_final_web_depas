@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color:  #0B4F6C;
+}
+#navbar{
+    overflow: hidden;
+    background-color: #36151E;
+    margin-bottom:5px;
+}
+#navbar a{
+    float: left;
+    color: #EAFFFD;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 5px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #846C5B;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#navbar a#active{
+    background-color: #0B4F6C;
+    margin: 5px;
+    margin-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h1{
+    color:#EAFFFD;
+    padding-left: 5%;
+}
+#descripcion{  
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #00A896;
+    color: #EAFFFD;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#members{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.member{
+    background-color: #00A896;
+    width: 27%;
+    color: #EAFFFD;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.member a{
+    color: #EAFFFD;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.member p{
+    margin:0px;
+}
+.member h2{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #36151E;
+}
+.member img{
+    width: 50%;
+    margin: 0px;
+    border-radius: 25px; 
+}
+.principal {
+    background-image: url("../img/depaNY.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background-position: 0% 10%;
+    font-size: 20px;
+  }
