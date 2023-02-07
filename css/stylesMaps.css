@@ -1,9 +1,6 @@
-﻿/*
- * Always set the map height explicitly to define the size of the div element
- * that contains the map.
- */
- #map {
+﻿ #map {
     height: 60vh;
+    align-content: center;
   }
   
   /*
@@ -14,7 +11,26 @@
     height: 100%;
     margin: 0;
     padding: 0;
+
   }
+
+  .principal {
+    background-image: url("../img/depaNY.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+    color:#EAFFFD;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+h1{
+  align-content: center;
+}
+  
+h2{
+  align-content: center;
+}
   
   #navbar{
     overflow: hidden;
@@ -42,3 +58,39 @@
       border-radius: 5px 5px 0px 0px;
       margin-bottom: 0px;
   }
+
+.contact-container{
+  background-color:#EAFFFD;
+  justify-content: center;
+}
+
+.contact-form{
+  margin-bottom: 1.5em;
+  display: block;
+}
+
+.name, .email, .message{
+  display: block;
+  box-shadow: none;
+  border-radius: 0;
+  border-color: #EAFFFD;
+  border-style: none none solid none;
+  width: 100%;
+  font-size: 1.25em;
+}
+
+.name, .email, .message::placeholder{
+  color:#0B4F6C;
+}
+.send-btn{
+  background:#EAFFFD;
+  border:1px solid #aaa;
+  border-radius:3px;
+  font-size:lem;
+  padding:10 50px;
+  text-transform:uppercase;
+  align-items: center;
+}
+
+
+

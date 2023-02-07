@@ -7,29 +7,49 @@ function initMap() {
     mapId: "19d44d248a609478",
   });
 
-  new google.maps.Marker({
-    position: { lat: 25.652952910261828, lng: -100.29137748937288 },
-    map,
-    title: "Residencias 1",
-    icon: {
-      url: "house.svg",
-      scaledSize: new google.maps.Size(38, 31),
-    },
-    animation: google.maps.Animation.DROP,
-  });
+  const markers = [
+    [
+      "Residencias 1",
+      25.652952910261828,
+      -100.29137748937288,
+      "house.svg",
+      38,
+      31,
+    ],
+    [
+      "Residencias 3",
+      25.653822137582708,
+      -100.2905134875168,
+      "house.svg",
+      38,
+      31,
+    ],
+    [
+      "Residencias 4",
+      25.65324285321756,
+      -100.2914540182094,
+      "house.svg",
+      38,
+      31,
+    ],
+  ];
+
+  for (let i = 0; i < markers.length; i++) {
+    const currMarker = markers[i];
+    const marker = new google.maps.Marker({
+      position: { lat: currMarker[1], lng: currMarker[2] },
+      map,
+      title: currMarker[0],
+      icon: {
+        url: currMarker[3],
+        scaledSize: new google.maps.Size(currMarker[4], currMarker[5]),
+      },
+      animation: google.maps.Animation.DROP,
+    });
+  }
 
   /*
-  new google.maps.Marker({
-    position: {lat:25.653822137582708, lng:-100.2905134875168},
-    map,
-    title: "Residencias 3",
-  });
 
-  new google.maps.Marker({
-    position: {lat:25.65324285321756, lng:-100.29145401820948},
-    map,
-    title: "Residencias 4",
-  });
 
   new google.maps.Marker({
     position: {lat:25.65353931692129, lng:-100.29101355620705},

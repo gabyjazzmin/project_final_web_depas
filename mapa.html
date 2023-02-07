@@ -2,12 +2,10 @@
 <html>
 
 <head>
-    <h1>Mapa de departamentos disponibles</h1>
     <link rel="stylesheet" type="text/css" href="css/stylesMaps.css">
-</head>
-
-
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <navbar>
         <div id="navbar">
             <a href="./home.html">Home page</a>
@@ -15,17 +13,24 @@
             <a id ="active" href="./mapa.html">Ubicaciones en mapa</a>
         </div>
     </navbar>
+</head>
+
+
+<body>
+    <section class= "principal">
+        <h1>Mapa</h1>
+    </section>
 
     <div id="map"></div>
-    <section class="contact container" id="contact">
-        <h2 class="heading">Contact</h2>
+    <section class="contact-container" id="contact">
+        <h2 class="heading"> Contactanos </h2>
         <form action="" class="contact-form" id="contact-form">
             <input type="text" placeholder="Your Name" class="name" required>
             <input type="email" placeholder="Email Adress..." class="email" required>
             <textarea name="" id="" cols="30" rows="10"
                 placeholder="Escribe aqui tus dudas acerca de nuestros departamerntos..." class="message"
                 required></textarea>
-            <input type="submit" value="Send" class="send-btn">
+            <input type="submit" value="Enviar" class="send-btn">
         </form>
     </section>
     <!--Script para Email -->
