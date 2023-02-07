@@ -1,0 +1,29 @@
+<%- include ("./partials/_header") %>
+
+<div class="container">
+    <form action="/addapt" method="POST">
+        <div class="mb-3">
+            <label for="City" class="form-label">City</label>
+            <input type="text" class="form-control" name="city" placeholder="Enter the City">
+        </div>
+        <div class="mb-3">
+            <label for="Bedrooms" class="form-label">Bedrooms</label>
+            <input type="number" class="form-control" name="bedrooms" placeholder="Amount of bedrooms">
+        </div>
+        <div class="mb-3">
+            <label for="Bathrooms" class="form-label">Bathrooms</label>
+            <input type="number" class="form-control" name="bathrooms" placeholder="Amount of bathrooms">
+        </div>
+        <div class="mb-3">
+            <label for="Price" class="form-label">Price</label>
+            <input type="number" class="form-control" name="price" placeholder="Price">
+        </div>
+        <div class="mb-3">
+            <label for="Inhabitant" class="form-label">Inhabitants</label>
+            <input type="number" class="form-control" name="inhabitants" placeholder="Inhabitants">
+        </div>
+        <a href="/apts"><button type="submit" class="btn btn-primary">Submit</button></a>
+    </form>
+</div>
+
+<%- include ("./partials/_footer") %>
